@@ -7,9 +7,9 @@ You Only Look Once or YOLO is a Unified, Real-Time Object Detection system. It n
 This python script will convert the VIA annotations into YOLO compatible format.
 
 ## How to use it
-- Export VIA annotations as json, into the images directory. It will save as *via_region_data.json*.
+- Export VIA annotations as json, into the images directory. It will save as **via_region_data.json**.
 - Download and copy this script into that directory.
-- Create a text file with all the attributes are used in VIA annotations; let's call it *via.names*.
+- Create a text file with all the attributes are used in VIA annotations; let's call it **via.names**.
 - Run the following command
 ```python
 python via2dark.py via_region_data.json via.names
